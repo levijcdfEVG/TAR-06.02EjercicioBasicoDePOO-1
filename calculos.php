@@ -17,4 +17,6 @@ if (isset($_POST['numero1']) && isset($_POST['numero2']) && isset($_POST['operac
 
     //Redirecciona el resultado pasandolo por parametro en la URL
     header("Location:mostrar.php?mostrar=$resultado");
+}else{
+    echo "<h1><b>ERROR: No se han encontrado datos válidos</b></h1>";
 }
