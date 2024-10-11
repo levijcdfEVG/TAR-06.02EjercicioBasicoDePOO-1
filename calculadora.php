@@ -28,6 +28,8 @@ class Calculadora{
     //Metodo en la que se va a seleccionar que operacion se realizará
     public function calcular(){
         //Se va a utilizar un switch case para redireccionar el codigo a la calculadora. Fuente: https://www.php.net/manual/en/control-structures.switch.php
+            
+            $this->ordenarNumeros(); //Se ha llamado la funcion de ordenacion de numeros
             switch ($this->operador) {
                 case 'sumar':
                     return $this->numero1 + $this->numero2;
