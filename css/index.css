@@ -1,21 +1,24 @@
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Define una fuente legible y común en distintos dispositivos */
 }
 
-form{
-    width: 50%;
-    margin: auto;
-    text-align: center;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    border: 1px solid black;
-    box-shadow: 0 0 10px black;
+/* Estilo para el formulario */
+form {
+    width: 50%;                          /* Define el ancho del formulario al 50% del ancho de la pantalla */
+    margin: auto;                        /* Centra el formulario horizontalmente en la página */
+    text-align: center;                  /* Centra el contenido dentro del formulario */
+    position: fixed;                     /* Fija el formulario en una posición central de la pantalla */
+    top: 50%;                            /* Mueve el formulario al 50% de la altura de la pantalla */
+    left: 50%;                           /* Mueve el formulario al 50% del ancho de la pantalla */
+    transform: translate(-50%, -50%);    /* Ajusta la posición para centrar exactamente el formulario */
+    border: 1px solid black;             /* Borde negro alrededor del formulario */
+    box-shadow: 0 0 10px black;          /* Sombra suave para dar un efecto de elevación */
 }
 
-form > input{
-    display: inline-block;
-    margin: 1%;
-    padding: 0.4%;
+/* Estilo para los inputs dentro del formulario */
+form > input {
+    display: inline-block;               /* Coloca los inputs en línea horizontal dentro del formulario */
+    margin: 1%;                          /* Añade un pequeño espacio alrededor de cada input */
+    padding: 0.4%;                       /* Añade espacio interno dentro de cada input */
 }

@@ -1,21 +1,44 @@
+/* Estilo para el cuerpo de la página */
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    justify-content: center;
-    align-items: center;
-    background-color: #f4f4f4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Define una familia de fuentes legible */
+    justify-content: center;         /* Centra el contenido horizontalmente (requiere display flex) */
+    align-items: center;             /* Centra el contenido verticalmente (requiere display flex) */
+    background-color: #f4f4f4;       /* Fondo gris claro para un aspecto suave */
 }
-main {
-    text-align: center;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
 
+/* Estilo para la sección principal */
+main {
+    text-align: center;              /* Centra el texto dentro del main */
+    background-color: #fff;          /* Fondo blanco para destacar el contenido */
+    padding: 20px;                   /* Espaciado interno para dar aire al contenido */
+    border-radius: 8px;              /* Bordes redondeados para suavizar el cuadro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor del cuadro */
+    position: fixed;                 /* Posiciona el elemento de forma fija en la ventana */
+    top: 50%;                        /* Mueve el cuadro al centro vertical */
+    left: 50%;                       /* Mueve el cuadro al centro horizontal */
+    transform: translate(-50%, -50%); /* Ajusta para centrar exactamente en la página */
 }
+
+/* Estilo para el encabezado h2 */
 h2 {
-    color: #333;
+    color: #333;                     /* Define un color gris oscuro para el texto del encabezado */
+}
+
+/* Estilo para los enlaces que se ven como botones */
+a {
+    display: inline-block;           /* Hace que el enlace se comporte como un botón */
+    padding: 10px 20px;              /* Agrega espacio alrededor del texto dentro del botón */
+    background-color: aqua;          /* Color de fondo del botón */
+    border-radius: 20px;             /* Bordes redondeados para un aspecto de botón suave */
+    border: 1px solid black;         /* Borde negro alrededor del botón */
+    color: black;                    /* Color del texto del botón */
+    text-decoration: none;           /* Elimina el subrayado del enlace */
+    font-weight: bold;               /* Hace que el texto del botón sea más grueso */
+    text-align: center;              /* Centra el texto dentro del botón */
+    transition: background-color 0.3s ease; /* Suaviza la transición del color de fondo en hover */
+}
+
+/* Efecto hover para el botón */
+a:hover {
+    background-color: lightblue;     /* Cambia el color de fondo del botón cuando se pasa el ratón */
 }
