@@ -7,7 +7,7 @@ class Calculadora{
     //Constructor Parametrizado
     public function __construct($numero1,$numero2,$operador) {
         $this->numero1 = $numero1;
-        $this->numero1 = $numero2;
+        $this->numero2 = $numero2;
         $this->operador = $operador;
     }
 
@@ -22,7 +22,6 @@ class Calculadora{
             $this->numero2 = $aux;
         }
     } 
-    
     
     
     //Metodo en la que se va a seleccionar que operacion se realizará
